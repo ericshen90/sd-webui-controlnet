@@ -20,7 +20,7 @@ def DPT_BEiT_L_512(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_beit_large_512.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_beit_large_512.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -43,7 +43,7 @@ def DPT_BEiT_L_384(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_beit_large_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_beit_large_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -66,7 +66,7 @@ def DPT_BEiT_B_384(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_beit_base_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_beit_base_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -89,7 +89,7 @@ def DPT_SwinV2_L_384(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_swin2_large_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_swin2_large_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -112,7 +112,7 @@ def DPT_SwinV2_B_384(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_swin2_base_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_swin2_base_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -135,7 +135,7 @@ def DPT_SwinV2_T_256(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_swin2_tiny_256.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_swin2_tiny_256.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -158,7 +158,7 @@ def DPT_Swin_L_384(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_swin_large_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_swin_large_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -181,7 +181,7 @@ def DPT_Next_ViT_L_384(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_next_vit_large_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_next_vit_large_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -206,7 +206,7 @@ def DPT_LeViT_224(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_levit_224.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_levit_224.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -229,7 +229,7 @@ def DPT_Large(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3/dpt_large_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3/dpt_large_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -252,7 +252,7 @@ def DPT_Hybrid(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v3/dpt_hybrid_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v3/dpt_hybrid_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -271,7 +271,7 @@ def MiDaS(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v2_1/midas_v21_384.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v2_1/midas_v21_384.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True
@@ -290,7 +290,7 @@ def MiDaS_small(pretrained=True, **kwargs):
 
     if pretrained:
         checkpoint = (
-            "https://github.com/isl-org/MiDaS/releases/download/v2_1/midas_v21_small_256.pt"
+            "https://mirror.ghproxy.com/https://github.com/isl-org/MiDaS/releases/download/v2_1/midas_v21_small_256.pt"
         )
         state_dict = torch.hub.load_state_dict_from_url(
             checkpoint, map_location=torch.device('cpu'), progress=True, check_hash=True

@@ -84,7 +84,7 @@ def try_install_insight_face():
     if get_installed_version("insightface") is not None:
         return
 
-    default_win_wheel = "https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp310-cp310-win_amd64.whl"
+    default_win_wheel = "https://mirror.ghproxy.com/https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp310-cp310-win_amd64.whl"
     wheel_url = os.environ.get("INSIGHTFACE_WHEEL", default_win_wheel)
 
     system = platform.system().lower()
@@ -132,14 +132,14 @@ try_install_from_wheel(
     "handrefinerportable",
     wheel_url=os.environ.get(
         "HANDREFINER_WHEEL",
-        "https://github.com/huchenlei/HandRefinerPortable/releases/download/v1.0.0/handrefinerportable-2024.1.18.0-py2.py3-none-any.whl",
+        "https://mirror.ghproxy.com/https://github.com/huchenlei/HandRefinerPortable/releases/download/v1.0.0/handrefinerportable-2024.1.18.0-py2.py3-none-any.whl",
     ),
 )
 try_install_from_wheel(
     "depth_anything",
     wheel_url=os.environ.get(
         "DEPTH_ANYTHING_WHEEL",
-        "https://github.com/huchenlei/Depth-Anything/releases/download/v1.0.0/depth_anything-2024.1.22.0-py2.py3-none-any.whl",
+        "https://mirror.ghproxy.com/https://github.com/huchenlei/Depth-Anything/releases/download/v1.0.0/depth_anything-2024.1.22.0-py2.py3-none-any.whl",
     ),
 )
 try_remove_legacy_submodule()
